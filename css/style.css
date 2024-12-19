@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 body {
     font-family: Arial, sans-serif;
@@ -248,7 +247,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    
+    body{
+            overflow-x: hidden;
+    }
     .hero {
         height: 75vh;
         color: #fff;
